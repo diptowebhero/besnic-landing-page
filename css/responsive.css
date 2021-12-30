@@ -26,7 +26,8 @@
   #toggle-menu:checked ~ .navigation {
     transform: translateY(0px);
   }
-  .banner-container {
+  .banner-container,
+  .listed-container {
     grid-template-columns: 1fr;
   }
   .partner-container {
@@ -41,7 +42,9 @@
   .banner-container,
   .partner-container,
   .work-container,
-  .feature-container {
+  .feature-container,
+  .listed-container,
+  .listed-items {
     grid-template-columns: 1fr;
   }
   .banner-left h1 {
@@ -53,6 +56,12 @@
     text-align: left;
     margin-top: 10px;
   }
+  .listed-right {
+    width: 100%;
+  }
+  .listed-right h2 {
+    font-size: 32px;
+}
 }
 @media(max-width:340px){
   .card-footer p{
