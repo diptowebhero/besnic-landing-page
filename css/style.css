@@ -69,9 +69,8 @@ body {
 #toggle-menu {
   display: none;
 }
-.toggle-menu-btn {
+.toggle-menu-btn i{
   display: none;
-  color: #000228 !important;
   font-size: 22px;
 }
 /* nav css end */
