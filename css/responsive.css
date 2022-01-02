@@ -51,7 +51,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 20px;
   }
-  .newsletter-left{
+  .newsletter-left {
     text-align: center;
   }
   .banner-left h1 {
@@ -68,6 +68,9 @@
   }
   .listed-right h2 {
     font-size: 32px;
+  }
+  .copy-right p {
+    margin-bottom: 12px;
   }
 }
 @media (max-width: 340px) {
